@@ -1,7 +1,16 @@
-# Tauri + React + Typescript
+# MSLV - MinecraftServerLogViewer -
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+### 機能
+ - フィルター機能により特定条件に当てはまった行を色付け、削除できる
+ - 検索機能により当てはまった行を色付け、もしくは別なログファイルにまとめることができる
+ - xxxx-xx-xx-x.log.gzを展開せず読み込める
+ - 同じ日付のログを連結して一つのファイルとして読み込める
+ - 複数のログを同時に読み込める
+ - グローバル検索機能で読み込んでいるログ全てに検索、フィルターをできる
+ - 検索テンプレートにエラーログ、プレーヤーコマンド実行ログ（プレーヤー名選択可能）、チャットログ（プレーヤー名選択可能）を切り出す機能が標準搭載
+ - 接続されたIPアドレスを抽出する機能がありddos攻撃のIPを絞る事などができる
+ - プレーヤー接続ログからその日のプレーヤー参加数とプレーヤー名を抽出できる
+ - その他欲しい機能はissueもしくは知り合いならDMへ
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+### 開発的なところ
+ rust & tauri & typescript & react で開発してます。
